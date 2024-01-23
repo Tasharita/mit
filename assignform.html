@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/assignform.css">
+    <link rel="icon" href="assets/flower.jpeg">
+    <title>Project Management</title>
+</head>
+<body>
+<legend><u>Project Management</u></legend>
+
+<form action="">
+
+
+    <label for="projectname">Project Name :</label>
+    <input type="text" id="projectname" placeholder="Project Name" required="required">
+    <br><br><br>
+
+    <label for="assignedto">Assigned to :</label>
+    <select name="" id="assignedto">
+        <option value="choose" disabled="disabled">---Choose---</option>
+        <option value="merry">Er Merry Peterson</option>
+        <option value="george">George washington</option>
+    </select>
+    <br><br><br>
+
+
+    <label for="stdate">Start Date :</label>
+    <input type="date" id="stdate" required="required">
+    <br><br><br>
+
+    <label for="edate">End Date :</label>
+    <input type="date" id="edate" required="required">
+    <br><br><br>
+
+    <label>Priority :</label>
+    <input type="radio" id="high">
+    <label for="high">High</label>
+    <input type="radio" id="average">
+    <label for="average">Average</label>
+    <input type="radio" id="low">
+    <label for="low">Low</label>
+    <br><br><br>
+
+    <label for="description">Description :</label>
+    <textarea name="" id="description" cols="65" rows="3"></textarea>
+    <br><br><br>
+
+      <button type="submit" style="background-color: chartreuse" class="but">Submit</button>
+    <button type="reset" style="background-color: blue">Clear</button>
+
+
+
+</form>
+
+</body>
+</html>

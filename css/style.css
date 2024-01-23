@@ -1,0 +1,36 @@
+p{
+    font-size: 20px;
+
+    font-weight: bold;
+}
+img{
+
+    width: 800px;
+    height: 350px;
+}
+
+.divison1{
+    background-color: #4b033d;
+}
+.division2{
+    background-color: blueviolet;
+}
+.division3{
+    background-color: cornflowerblue;
+}
+#main{
+    background-color: #030303;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.heading1{
+    color: yellow;
+}
+.heading2{
+    color: red;
+}
+.imageparagraph{
+    display: flex;
+    padding-left: 10px;
+}

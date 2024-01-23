@@ -1,0 +1,22 @@
+#first{
+    display: grid;
+}
+.one{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.two{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.three{
+    display: flex;
+    margin-bottom: 40px;
+}
+img{
+    width: 400px;
+    height: 200px;
+    float: left;
+}

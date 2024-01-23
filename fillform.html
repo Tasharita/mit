@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/fillstyle.css">
+    <title>Fill form</title>
+</head>
+<body>
+<form class="form-style-7">
+<ul>
+<li>
+    <label for="name">Name</label>
+    <input type="text" name="name" maxlength="100">
+    <span>Enter your full name here</span>
+</li>
+<li>
+    <label for="email">Email</label>
+    <input type="email" name="email" maxlength="100">
+    <span>Enter a valid email address</span>
+</li>
+<li>
+    <label for="url">Website</label>
+    <input type="url" name="url" maxlength="100">
+    <span>Your website address (eg: http://www.google.com)</span>
+</li>
+<li>
+    <label for="bio">About You</label>
+    <textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
+    <span>Say something about yourself</span>
+</li>
+<li>
+    <input type="submit" value="Send This" >
+</li>
+</ul>
+</form>
+</body>
+</html>
